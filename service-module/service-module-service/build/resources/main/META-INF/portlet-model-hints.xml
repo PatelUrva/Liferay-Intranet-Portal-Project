@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.aixtor.intranet.model.leave">
+		<field name="uuid" type="String" />
+		<field name="leaveId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="employeeName" type="String" />
+		<field name="leaveType" type="String" />
+		<field name="fromDate" type="String" />
+		<field name="toDate" type="String" />
+		<field name="dayType" type="String" />
+		<field name="halfType" type="String" />
+		<field name="teamEmail" type="String" />
+		<field name="reason" type="String" />
+		<field name="status" type="String" />
+	</model>
+	<model name="com.aixtor.intranet.model.LeaveTracker">
+		<field name="leaveTrackerId" type="long" />
+		<field name="userId" type="long" />
+		<field name="totalCompen" type="int" />
+		<field name="bookedCompen" type="int" />
+		<field name="totalEarned" type="int" />
+		<field name="bookedEarned" type="int" />
+		<field name="totalFloater" type="int" />
+		<field name="bookedFloater" type="int" />
+		<field name="totalUnpaid" type="int" />
+		<field name="bookedUnpaid" type="int" />
+		<field name="createDate" type="Date" />
+		<field name="createdBy" type="long" />
+		<field name="modifiedDate" type="Date" />
+		<field name="modifiedBy" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+	</model>
+</model-hints>
