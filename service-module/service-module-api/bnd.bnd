@@ -1,0 +1,10 @@
+Bundle-Name: service-module-api
+Bundle-SymbolicName: com.aixtor.intranet.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.aixtor.intranet.exception,\
+	com.aixtor.intranet.model,\
+	com.aixtor.intranet.service,\
+	com.aixtor.intranet.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../service-module-service/service.xml
