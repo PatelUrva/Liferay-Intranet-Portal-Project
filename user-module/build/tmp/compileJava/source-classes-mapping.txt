@@ -1,0 +1,6 @@
+com/aixtor/intranet/portlet/ViewUserPortlet.java
+ com.aixtor.intranet.portlet.ViewUserPortlet
+com/aixtor/intranet/portlet/AddUserPortlet.java
+ com.aixtor.intranet.portlet.AddUserPortlet
+com/aixtor/intranet/constants/UserComponentPortletKeys.java
+ com.aixtor.intranet.constants.UserComponentPortletKeys
